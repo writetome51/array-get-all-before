@@ -11,7 +11,12 @@ For both functions, `value` cannot be an object.  Arrays are OK.
 
 ## Examples
 ```
+let arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
+getAllBeforeFirst(6, arr);
+   // --> [1, 2, 3, 4, 5]
 
+getAllBeforeLast(6, arr);
+   // --> [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5]
 ```
 
 ## Installation
