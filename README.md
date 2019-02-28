@@ -6,15 +6,12 @@ Returns everything before first instance of `value` in `array`.  Does not modify
 
 Returns everything before last instance of `value` in `array`.  Does not modify `array`.
 
+For both functions, `value` cannot be an object.  Arrays are OK.
 
-Examples:
+
+## Examples
 ```
-let arr = [1,2,3,4,5,6,7,8,9,10];
-let middle = getBetween(2, arr); // ignores first 2 and last 2 items.
-// middle is now [3,4,5,6,7,8]
 
-middle = getBetween(4, arr); // ignores first 4 and last 4 items.
-// middle is now [5,6]
 ```
 
 ## Installation

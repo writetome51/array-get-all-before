@@ -1,4 +1,4 @@
-import { getAllBeforeLast } from './getAllAfterLast_getAllBeforeLast';
+import { getAllBeforeLast } from './getAllBeforeLast';
 
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 21, 31, 41, 51, 61, 71, 81, 80, 90, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
